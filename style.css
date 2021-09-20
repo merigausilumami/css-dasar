@@ -1,0 +1,162 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: #F6A9A9;
+}
+
+.wrapper {
+   background: #FFDAC7;
+}
+
+.container {
+    width: 1200px;
+    height: 590px;
+    margin: auto;
+    padding-right: 10px;
+  padding-left: 10px;
+    background-color: #FFDAC7;
+}
+
+.container2 {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding-right: 10px;
+   padding-left: 10px;
+    background-color: #FFDAC7;
+}
+
+/* div bagian logo */
+img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius:100%;
+}
+
+.container2 img {
+    padding-left: 100PX;
+}
+
+/* div menu */
+#menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: right;
+    width: 870px;
+    /* background-color: hotpink; */
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu li a {
+
+    color: #E05D5D;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* div bagian conten */
+/* sidebar */
+.sidebar {
+
+    color: black;
+    width: 300px;
+    height: 590px;
+    background: #FF95C5;
+    float: left;
+}
+
+.sidebar a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.recent-article {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recent-article ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* content */
+.content {
+    color: #E05D5D;
+    width: 880px;
+    /* height: 600px; */
+    /* background: blue; */
+    float: right;
+}
+
+.blog-content {
+    float: left;
+    max-width: 400px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-content img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.blog-content a {
+    color: rgb(177, 15, 15);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* bagian info */
+.blog-single {
+    float: left;
+    max-width: 900px;
+    max-height: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-single img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 720px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.clear {
+    clear: both;
+}
+
+/* footer */
+footer {
+    width: 1190px;
+    height: 30px;
+    margin: auto;
+    background-color: #E05D5D;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+}
